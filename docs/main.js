@@ -50,11 +50,11 @@ __webpack_require__.r(__webpack_exports__);
 var adminRoutes = [
     {
         path: 'dashboard',
-        loadChildren: function () { return Promise.all(/*! import() | views-dashboard-dashboard-module */[__webpack_require__.e("default~views-dashboard-dashboard-module~views-data-tables-data-tables-module~views-invoice-invoice-module"), __webpack_require__.e("default~views-dashboard-dashboard-module~views-ui-kits-ui-kits-module"), __webpack_require__.e("views-dashboard-dashboard-module")]).then(__webpack_require__.bind(null, /*! ./views/dashboard/dashboard.module */ "./src/app/views/dashboard/dashboard.module.ts")).then(function (m) { return m.DashboardModule; }); }
+        loadChildren: function () { return __webpack_require__.e(/*! import() | views-dashboard-dashboard-module */ "AgriApp/views-dashboard-dashboard-module").then(__webpack_require__.bind(null, /*! ./views/dashboard/dashboard.module */ "./src/app/views/dashboard/dashboard.module.ts")).then(function (m) { return m.DashboardModule; }); }
     },
     {
         path: 'calendar',
-        loadChildren: function () { return __webpack_require__.e(/*! import() | views-calendar-calendar-module */ "views-calendar-calendar-module").then(__webpack_require__.bind(null, /*! ./views/calendar/calendar.module */ "./src/app/views/calendar/calendar.module.ts")).then(function (m) { return m.CalendarAppModule; }); }
+        loadChildren: function () { return __webpack_require__.e(/*! import() | views-calendar-calendar-module */ "AgriApp/views-calendar-calendar-module").then(__webpack_require__.bind(null, /*! ./views/calendar/calendar.module */ "./src/app/views/calendar/calendar.module.ts")).then(function (m) { return m.CalendarAppModule; }); }
     }
 ];
 var routes = [
@@ -69,7 +69,7 @@ var routes = [
         children: [
             {
                 path: 'sessions',
-                loadChildren: function () { return __webpack_require__.e(/*! import() | views-sessions-sessions-module */ "views-sessions-sessions-module").then(__webpack_require__.bind(null, /*! ./views/sessions/sessions.module */ "./src/app/views/sessions/sessions.module.ts")).then(function (m) { return m.SessionsModule; }); }
+                loadChildren: function () { return __webpack_require__.e(/*! import() | views-sessions-sessions-module */ "AgriApp/views-sessions-sessions-module").then(__webpack_require__.bind(null, /*! ./views/sessions/sessions.module */ "./src/app/views/sessions/sessions.module.ts")).then(function (m) { return m.SessionsModule; }); }
             }
         ]
     },
@@ -79,7 +79,7 @@ var routes = [
         children: [
             {
                 path: 'others',
-                loadChildren: function () { return __webpack_require__.e(/*! import() | views-others-others-module */ "views-others-others-module").then(__webpack_require__.bind(null, /*! ./views/others/others.module */ "./src/app/views/others/others.module.ts")).then(function (m) { return m.OthersModule; }); }
+                loadChildren: function () { return __webpack_require__.e(/*! import() | views-others-others-module */ "AgriApp/views-others-others-module").then(__webpack_require__.bind(null, /*! ./views/others/others.module */ "./src/app/views/others/others.module.ts")).then(function (m) { return m.OthersModule; }); }
             }
         ]
     },

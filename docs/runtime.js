@@ -64,7 +64,7 @@
 /******/
 /******/ 	// script path function
 /******/ 	function jsonpScriptSrc(chunkId) {
-/******/ 		return __webpack_require__.p + "" + ({"default~views-dashboard-dashboard-module~views-data-tables-data-tables-module~views-invoice-invoice-module":"default~views-dashboard-dashboard-module~views-data-tables-data-tables-module~views-invoice-invoice-module","default~views-dashboard-dashboard-module~views-ui-kits-ui-kits-module":"default~views-dashboard-dashboard-module~views-ui-kits-ui-kits-module","views-dashboard-dashboard-module":"views-dashboard-dashboard-module","views-data-tables-data-tables-module":"views-data-tables-data-tables-module","views-invoice-invoice-module":"views-invoice-invoice-module","views-ui-kits-ui-kits-module":"views-ui-kits-ui-kits-module","views-calendar-calendar-module":"views-calendar-calendar-module","views-chat-chat-module":"views-chat-chat-module","views-contacts-contacts-module":"views-contacts-contacts-module","views-forms-forms-module":"views-forms-forms-module","views-icons-icons-module":"views-icons-icons-module","views-inbox-inbox-module":"views-inbox-inbox-module","views-others-others-module":"views-others-others-module","views-pages-pages-module":"views-pages-pages-module","views-sessions-sessions-module":"views-sessions-sessions-module"}[chunkId]||chunkId) + ".js"
+/******/ 		return __webpack_require__.p + "" + ({"views-calendar-calendar-module":"views-calendar-calendar-module","views-dashboard-dashboard-module":"views-dashboard-dashboard-module","views-others-others-module":"views-others-others-module","views-sessions-sessions-module":"views-sessions-sessions-module"}[chunkId]||chunkId) + ".js"
 /******/ 	}
 /******/
 /******/ 	// The require function
