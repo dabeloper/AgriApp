@@ -53,44 +53,8 @@ var adminRoutes = [
         loadChildren: function () { return Promise.all(/*! import() | views-dashboard-dashboard-module */[__webpack_require__.e("default~views-dashboard-dashboard-module~views-data-tables-data-tables-module~views-invoice-invoice-module"), __webpack_require__.e("default~views-dashboard-dashboard-module~views-ui-kits-ui-kits-module"), __webpack_require__.e("views-dashboard-dashboard-module")]).then(__webpack_require__.bind(null, /*! ./views/dashboard/dashboard.module */ "./src/app/views/dashboard/dashboard.module.ts")).then(function (m) { return m.DashboardModule; }); }
     },
     {
-        path: 'uikits',
-        loadChildren: function () { return Promise.all(/*! import() | views-ui-kits-ui-kits-module */[__webpack_require__.e("default~views-dashboard-dashboard-module~views-ui-kits-ui-kits-module"), __webpack_require__.e("views-ui-kits-ui-kits-module")]).then(__webpack_require__.bind(null, /*! ./views/ui-kits/ui-kits.module */ "./src/app/views/ui-kits/ui-kits.module.ts")).then(function (m) { return m.UiKitsModule; }); }
-    },
-    {
-        path: 'forms',
-        loadChildren: function () { return __webpack_require__.e(/*! import() | views-forms-forms-module */ "views-forms-forms-module").then(__webpack_require__.bind(null, /*! ./views/forms/forms.module */ "./src/app/views/forms/forms.module.ts")).then(function (m) { return m.AppFormsModule; }); }
-    },
-    {
-        path: 'invoice',
-        loadChildren: function () { return Promise.all(/*! import() | views-invoice-invoice-module */[__webpack_require__.e("default~views-dashboard-dashboard-module~views-data-tables-data-tables-module~views-invoice-invoice-module"), __webpack_require__.e("views-invoice-invoice-module")]).then(__webpack_require__.bind(null, /*! ./views/invoice/invoice.module */ "./src/app/views/invoice/invoice.module.ts")).then(function (m) { return m.InvoiceModule; }); }
-    },
-    {
-        path: 'inbox',
-        loadChildren: function () { return __webpack_require__.e(/*! import() | views-inbox-inbox-module */ "views-inbox-inbox-module").then(__webpack_require__.bind(null, /*! ./views/inbox/inbox.module */ "./src/app/views/inbox/inbox.module.ts")).then(function (m) { return m.InboxModule; }); }
-    },
-    {
         path: 'calendar',
         loadChildren: function () { return __webpack_require__.e(/*! import() | views-calendar-calendar-module */ "views-calendar-calendar-module").then(__webpack_require__.bind(null, /*! ./views/calendar/calendar.module */ "./src/app/views/calendar/calendar.module.ts")).then(function (m) { return m.CalendarAppModule; }); }
-    },
-    {
-        path: 'chat',
-        loadChildren: function () { return __webpack_require__.e(/*! import() | views-chat-chat-module */ "views-chat-chat-module").then(__webpack_require__.bind(null, /*! ./views/chat/chat.module */ "./src/app/views/chat/chat.module.ts")).then(function (m) { return m.ChatModule; }); }
-    },
-    {
-        path: 'contacts',
-        loadChildren: function () { return __webpack_require__.e(/*! import() | views-contacts-contacts-module */ "views-contacts-contacts-module").then(__webpack_require__.bind(null, /*! ./views/contacts/contacts.module */ "./src/app/views/contacts/contacts.module.ts")).then(function (m) { return m.ContactsModule; }); }
-    },
-    {
-        path: 'tables',
-        loadChildren: function () { return Promise.all(/*! import() | views-data-tables-data-tables-module */[__webpack_require__.e("default~views-dashboard-dashboard-module~views-data-tables-data-tables-module~views-invoice-invoice-module"), __webpack_require__.e("views-data-tables-data-tables-module")]).then(__webpack_require__.bind(null, /*! ./views/data-tables/data-tables.module */ "./src/app/views/data-tables/data-tables.module.ts")).then(function (m) { return m.DataTablesModule; }); }
-    },
-    {
-        path: 'pages',
-        loadChildren: function () { return __webpack_require__.e(/*! import() | views-pages-pages-module */ "views-pages-pages-module").then(__webpack_require__.bind(null, /*! ./views/pages/pages.module */ "./src/app/views/pages/pages.module.ts")).then(function (m) { return m.PagesModule; }); }
-    },
-    {
-        path: 'icons',
-        loadChildren: function () { return __webpack_require__.e(/*! import() | views-icons-icons-module */ "views-icons-icons-module").then(__webpack_require__.bind(null, /*! ./views/icons/icons.module */ "./src/app/views/icons/icons.module.ts")).then(function (m) { return m.IconsModule; }); }
     }
 ];
 var routes = [
