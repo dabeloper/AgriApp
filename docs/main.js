@@ -5910,8 +5910,8 @@ var environment = {
     DefaultCenteringPosition: [4.6482837, -74.2478938, 11],
     DefaultZoomSize: 10,
     Agromonitoring: {
-        polygon: 'https://api.agromonitoring.com/agro/1.0/polygons?appid=9d38fec44f3047ceef30734d88959c50',
-        ndvi: 'https://api.agromonitoring.com/agro/1.0/image/search?start=1546300800&end=1577836800&appid=9d38fec44f3047ceef30734d88959c50&polyid='
+        polygon: 'https://api.agromonitoring.com/agro/1.0/polygons?appid=07b225c4464e44bcdf8376e26ca61df7',
+        ndvi: 'https://api.agromonitoring.com/agro/1.0/image/search?start=1546300800&end=1577836800&appid=07b225c4464e44bcdf8376e26ca61df7&polyid='
     }
 };
 /*
